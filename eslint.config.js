@@ -23,6 +23,8 @@ export default tseslint.config(
         'warn',
         { allowConstantExport: true },
       ],
+      // allow the use of `any` type
+      '@typescript-eslint/no-explicit-any': 'off',
     },
   },
 )

@@ -1,4 +1,29 @@
 @import "tailwindcss";
 *{
   box-sizing: border-box;
+  font-weight: 500;
+}
+
+.font-blod {
+  font-weight: 700 !important;
+}
+
+.font-medium {
+  font-weight: 500 !important;
+}
+.font-light {
+  font-weight: 300 !important;
+}
+.font-thin {
+  font-weight: 100 !important;
+}
+.font-normal {
+  font-weight: 400 !important;
+}
+.ant-form-item {
+  margin-bottom: 0 !important;
+}
+.ant-form-item-label {
+  padding: 0 !important;
+  margin: 0 !important;
 }

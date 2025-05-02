@@ -7,21 +7,16 @@ function ThemeProvider({ children }: { children: React.ReactNode }) {
       theme={{
         token: {
           colorPrimary: primaryColorCode,
-          colorTextBase: "#000",
-          colorText: "#000",
-          colorTextLightSolid: "#000",
+          controlOutline: 'none',
         },
         components: {
           Button: {
-            colorPrimary: primaryColorCode,
-            colorTextBase: "#000",
-            colorText: "#000",
-            colorTextLightSolid: "#000",
+            controlHeight: 45,
+            
           },
           Input: {
-            colorTextBase: "#000",
-            colorText: "#000",
-            colorTextLightSolid: "#000",
+           controlHeight: 45,
+           colorBorder: 'gray',
           },
         },
       }}
